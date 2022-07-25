@@ -1,0 +1,100 @@
+body{
+    justify-content: center;
+    /* text-align: center; */
+    min-height: 80vh;
+
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+nav img{
+    width: 55px;
+    height: 70px;
+    
+}
+main{
+    display:flex;
+}
+#color{
+    margin-top:15px;
+}
+.container{
+display:flex;
+grid-column:1;
+}
+.container div{
+width: 60px;
+height: 40px;
+margin: 7px;
+}
+img{
+width: 530px;
+height: 550px;
+margin-top: 0px;
+}
+.blue{
+background-color: #565681;
+}
+.black{
+background-color: #23211f;
+}
+.pink{
+background-color: #e9c7be ;
+}
+.purple{
+background-color: #8a5362 ;
+} 
+.red{
+background-color: #ca3d22;
+}  
+h2{
+    margin-top: 100px;
+}
+#time{
+margin-left:220px;
+margin-top: -295px;
+color:powderblue;
+font-size: x-large;
+}
+.btn{
+width: 100px;
+height: 33px;
+/* border: 2px solid black; */
+background-color: rgb(235, 34, 34);
+text-align: center;
+padding-top: 7px;
+margin-top:35px ;
+margin-left:5px;
+border-radius: 5px;
+font-size: 20px;
+color: white;
+}
+.timebtn{
+    padding: 5px;
+    width:60px;
+    margin: 7px;
+}
+.heartbtn{
+    padding: 5px;
+    width:80px;
+    margin: 7px;
+}
+#heart{
+    margin-left: 250px;
+    font-size: x-large;
+    margin-top: -0px;
+    color: white;
+}
+#beat{
+ margin-left: 250px;
+ font-size: x-large;
+ color:red;
+}
+#heartbeat{
+    margin-top:-295px;
+    display: none;
+}
+
