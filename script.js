@@ -68,3 +68,20 @@ function updateTime(c){
  time.style.display="none";
   heartbeat.style.display="block";
   });
+
+
+  function randomNumber(){
+    let randomNumber = Math.random();
+    randomNumber = randomNumber * 100;
+    randomNumber = Math.floor(randomNumber);
+    heart.innerHTML = randomNumber;
+  }
+  function updateRandom(k){
+   if(k < 10){
+      return "0" + k;
+   }
+   else{
+      return k;
+   }
+  }
+  randomNumber();

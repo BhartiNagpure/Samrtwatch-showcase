@@ -18,7 +18,7 @@ nav img{
 main{
     display:flex;
 }
-#color{
+.color{
     margin-top:15px;
 }
 .container{
@@ -29,6 +29,7 @@ grid-column:1;
 width: 60px;
 height: 40px;
 margin: 7px;
+border-radius: 5px;
 }
 img{
 width: 530px;
@@ -62,7 +63,6 @@ font-size: x-large;
 .btn{
 width: 100px;
 height: 33px;
-/* border: 2px solid black; */
 background-color: rgb(235, 34, 34);
 text-align: center;
 padding-top: 7px;
@@ -72,6 +72,9 @@ border-radius: 5px;
 font-size: 20px;
 color: white;
 }
+a {
+    text-decoration: none;
+}
 .timebtn{
     padding: 5px;
     width:60px;
@@ -80,12 +83,12 @@ color: white;
 .heartbtn{
     padding: 5px;
     width:80px;
-    margin: 7px;
+    margin:7px;
 }
 #heart{
     margin-left: 250px;
     font-size: x-large;
-    margin-top: -0px;
+    margin-top:-55px;
     color: white;
 }
 #beat{
@@ -94,7 +97,7 @@ color: white;
  color:red;
 }
 #heartbeat{
-    margin-top:-295px;
+    margin-top:-280px;
     display: none;
 }
 
