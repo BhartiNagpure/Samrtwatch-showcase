@@ -74,7 +74,7 @@ function updateTime(c){
     let randomNumber = Math.random();
     randomNumber = randomNumber * 100;
     randomNumber = Math.floor(randomNumber);
-    heart.innerHTML = randomNumber;
+    heart.innerHTML = updateRandom(randomNumber);
   }
   function updateRandom(k){
    if(k < 10){
