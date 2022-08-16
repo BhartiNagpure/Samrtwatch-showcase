@@ -20,12 +20,14 @@
   function currentDate(){
     var date=new Date();
    var hour=date.getHours();
+   var hourFormat = hour >= 13 ? hour%12 : hour ;
    var min=date.getMinutes();
    var sec=date.getSeconds();
-      hour=updateTime(hour);
+      
+      hourFormat=updateTime(hourFormat);
       min=updateTime(min);
       sec=updateTime(sec);
-     time.innerHTML= hour + ":" + min + ":" +sec;
+     time.innerHTML= hourFormat + ":" + min + ":" +sec;
      setTimeout(function() {currentDate()}, 1000);
 }
 
